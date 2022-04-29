@@ -18,7 +18,7 @@
 <repositories>
     <repository>
         <id>project-central</id>
-        <url>https://repo.projecttl.net/repository/maven-public/</url>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 
@@ -35,7 +35,7 @@
 ## Groovy
 ```gradle
 repositories {
-    maven { 'https://repo.projecttl.net/repository/maven-public/' }
+    maven { 'jitpack.io' }
 }
 
 dependencies {
@@ -46,7 +46,7 @@ dependencies {
 ## Kotlin DSL
 ```gradle
 repositories {
-    maven("https://repo.projecttl.net/repository/maven-public/")
+    maven("https://jitpack.io")
 }
 
 dependencies {
