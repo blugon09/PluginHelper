@@ -55,7 +55,8 @@ tasks {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "kr.blugon"
+//            groupId = "kr.blugon"
+            groupId = "com.github.blugon09"
             artifactId = "PluginHelper"
             version = "1.0.0"
 
