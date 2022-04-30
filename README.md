@@ -35,7 +35,7 @@
 ## Groovy
 ```gradle
 repositories {
-    maven { 'jitpack.io' }
+    maven { 'https://jitpack.io' }
 }
 
 dependencies {
