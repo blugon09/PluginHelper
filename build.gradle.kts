@@ -40,16 +40,16 @@ tasks {
         from(sourceSets["main"].output)
     }
 
-//    create<Jar>("sourcesJar") {
-//        archiveClassifier.set("sources")
-//        from(sourceSets["main"].allSource)
-//    }
-//
-//    create<Jar>("javadocJar") {
-//        archiveClassifier.set("javadoc")
-//        dependsOn("dokkaHtml")
-//        from("$buildDir/dokka/html")
-//    }
+    create<Jar>("sourcesJar") {
+        archiveClassifier.set("sources")
+        from(sourceSets["main"].allSource)
+    }
+
+    create<Jar>("javadocJar") {
+        archiveClassifier.set("javadoc")
+        dependsOn("dokkaHtml")
+        from("$buildDir/dokka/html")
+    }
 }
 
 publishing {
